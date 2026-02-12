@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 
 st.set_page_config(layout="wide")
 
@@ -26,13 +27,21 @@ with col1:
 
 with col2:
     st.markdown("### 📄 Mon CV")
-    st.markdown(
-        """
-        Vous pouvez télécharger mon CV ici :  
-        👉 [**Télécharger mon CV (PDF)**](assets/CV_FX_Lhermitte.pdf)
-        """
-    )
 
+    cv_path = "assets/CV_FX_Lhermitte.pdf"
+
+    if os.path.exists(cv_path):
+        with open(cv_path, "rb") as f:
+            cv_bytes = f.read()
+
+        st.download_button(
+            label="📄 Télécharger mon CV",
+            data=cv_bytes,
+            file_name="CV_FX_Lhermitte.pdf",
+            mime="application/pdf"
+        )
+    else:
+        st.error("❌ CV introuvable. Vérifie le chemin : assets/CV_FX_Lhermitte.pdf")
 
 st.markdown("---")
 
