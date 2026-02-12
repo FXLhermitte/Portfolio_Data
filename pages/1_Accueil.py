@@ -57,11 +57,5 @@ with col2:
 
 st.markdown("---")
 
-# --- Présentation rapide (version premium) ---
-colA, colB = st.columns([1, 2])
-
-with colA:
-    st.markdown(
-        """
-        <h3 style='color:#C9A86A;'>Profil</h3>
        
+
