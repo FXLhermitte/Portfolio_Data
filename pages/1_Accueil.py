@@ -65,9 +65,9 @@ with colA:
         """
         <h3 style='color:#C9A86A;'>Certifications</h3>
         <p style='font-size:18px;'>
-        🎓 Certifié Data Analyst (Datascientest – Mines Paris)<br>
-        🎓 Certifié Power BI (PL‑300)<br>
-        🎓 Certification SQL (ENI) en cours
+        🎓 Data Analyst (Datascientest – Mines Paris)<br>
+        🎓 Power BI (PL‑300)<br>
+        🎓 SQL (ENI) en cours
         </p>
         """,
         unsafe_allow_html=True
@@ -83,5 +83,6 @@ st.markdown(
 )
 
 st.page_link("pages/3_Projets.py", label="👉 Voir les projets", icon="📊")
+
 
 
