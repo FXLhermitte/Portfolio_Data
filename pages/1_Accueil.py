@@ -55,5 +55,6 @@ with col2:
 st.markdown("---")
 
 # --- Bouton vers les projets ---
-st.markdown("### 🚀 Envie de voir mes projets ?")
+st.markdown("### 🚀 Envie de voir quelques réalisations ?")
+
 st.page_link("pages/3_Projets.py", label="Voir les projets")
