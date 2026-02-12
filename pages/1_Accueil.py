@@ -65,7 +65,6 @@ with colA:
         """
         <h3 style='color:#C9A86A;'>Profil</h3>
         <p style='font-size:18px;'>
-        📍 Lesquin (59)<br>
         🎓 Certifié Data Analyst (Datascientest – Mines Paris)<br>
         🎓 Certifié Power BI (PL‑300)<br>
         🎓 Certification SQL (ENI) en cours
@@ -94,3 +93,4 @@ st.markdown(
 )
 
 st.page_link("pages/3_Projets.py", label="👉 Voir les projets", icon="📊")
+
