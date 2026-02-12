@@ -63,7 +63,7 @@ colA, colB = st.columns([1, 2])
 with colA:
     st.markdown(
         """
-        <h3 style='color:#C9A86A;'>Profil</h3>
+        <h3 style='color:#C9A86A;'>Certifications</h3>
         <p style='font-size:18px;'>
         🎓 Certifié Data Analyst (Datascientest – Mines Paris)<br>
         🎓 Certifié Power BI (PL‑300)<br>
@@ -73,16 +73,6 @@ with colA:
         unsafe_allow_html=True
     )
 
-with colB:
-    st.markdown(
-        """
-        <div style='font-size:18px; line-height:1.6;'>
-        Data Analyst avec 20 ans d’expérience en performance, pilotage et Supply Chain.<br>
-        J’allie compréhension métier et maîtrise de la donnée pour créer des analyses utiles, claires et actionnables.
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
 
 st.markdown("---")
 
@@ -93,4 +83,5 @@ st.markdown(
 )
 
 st.page_link("pages/3_Projets.py", label="👉 Voir les projets", icon="📊")
+
 
