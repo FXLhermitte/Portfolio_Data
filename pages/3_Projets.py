@@ -5,7 +5,7 @@ import os
 st.set_page_config(layout="wide")
 
 # --- Titre ---
-st.markdown("<h1 style='color:#C9A86A;'>Mes Projets</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='color:#C9A86A;'>Quelques réalisations</h1>", unsafe_allow_html=True)
 st.write("Des analyses concrètes, construites avec rigueur et racontées avec sens.")
 
 st.markdown("---")
@@ -128,5 +128,6 @@ cols = st.columns(2)
 for i, img in enumerate(images_ventes):
     with cols[i % 2]:
         show_image(img)
+
 
 st.markdown("---")
