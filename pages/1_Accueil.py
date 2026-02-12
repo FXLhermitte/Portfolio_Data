@@ -54,7 +54,31 @@ with col2:
 
 st.markdown("---")
 
+# --- Présentation rapide ---
+col1, col2 = st.columns([1, 2])
+
+with col1:
+    # st.image("images/photo_fx.jpg", width=200)  # Active quand tu auras ta photo
+    st.markdown("### François‑Xavier Lhermitte")
+    st.write("📍 Lesquin (59)")
+    st.write("🎓 Certifié Data Analyst (Datascientest - Les Mines Paris)")
+    st.write("🎓 Certifié Power BI (PL‑300)")
+    st.write("🎓 Certification SQL (ENI) en cours")
+    
+
+with col2:
+    st.markdown(
+        """
+        <div style='font-size:18px;'>
+        Data Analyst avec 20 ans d’expérience en performance, pilotage et Supply Chain.  
+        J’allie compréhension métier et maîtrise de la donnée pour créer des analyses utiles, claires et actionnables.
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
 # --- Bouton vers les projets ---
 st.markdown("### 🚀 Envie de voir quelques réalisations ?")
 
 st.page_link("pages/3_Projets.py", label="Voir les projets")
+
