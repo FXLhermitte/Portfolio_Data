@@ -79,7 +79,7 @@ timeline_block(
 
 timeline_block(
     "2003 – 2006",
-    "**Coordinateur Logistique**",
+    "**Coordinateur Supply Chain**",
     "Négociation, mise en œuvre de solutions logistiques, pilotage opérationnel. "
     "Le terrain m’a appris la rigueur, la réactivité et la compréhension fine des enjeux business."
 )
@@ -100,4 +100,5 @@ st.write(
     "Avec ce parcours, je ne viens pas seulement avec des compétences techniques. "
     "Je viens avec **20 ans de compréhension du terrain**, des équipes, des contraintes, des enjeux. "
     "Je sais lire une donnée, mais surtout je sais **ce qu’elle signifie** pour un métier, un client, une organisation."
+
 )
