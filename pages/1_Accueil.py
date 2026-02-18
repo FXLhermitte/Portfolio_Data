@@ -33,7 +33,7 @@ with col1:
     photo_path = os.path.join("assets", "photo_FX.jpg")
     if os.path.exists(photo_path):
         img = Image.open(photo_path)
-        st.image(img, width=260)
+        st.image(img, width=220)
     else:
         st.error("❌ Impossible de charger la photo. Vérifie le nom du fichier dans /assets.")
 
@@ -84,6 +84,7 @@ st.markdown(
 )
 
 st.page_link("pages/3_Projets.py", label="👉 Voir les projets", icon="📊")
+
 
 
 
