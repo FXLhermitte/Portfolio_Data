@@ -67,7 +67,8 @@ with colA:
         <p style='font-size:18px;'>
         🎓 Data Analyst (Datascientest – Mines Paris)<br>
         🎓 Power BI (PL‑300)<br>
-        🎓 SQL (ENI) en cours
+        🎓 SQL (ENI - Exploiter une base de
+données relationnelle)
         </p>
         """,
         unsafe_allow_html=True
@@ -83,6 +84,7 @@ st.markdown(
 )
 
 st.page_link("pages/3_Projets.py", label="👉 Voir les projets", icon="📊")
+
 
 
 
