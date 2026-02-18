@@ -26,6 +26,10 @@ st.markdown("## 🌍 Réchauffement climatique — Analyse Python")
 
 st.markdown(
     """
+    Nettoyage de datasets en Python :
+    https://colab.research.google.com/drive/1qaAKH4bK7vBUU8rh-6oP26rNbtxclPpE#scrollTo=651231cc-2925-4fbd-ad5f-29e2724fff1e
+    https://colab.research.google.com/drive/1SrkLBAjnYfSsqKXETLm3julWP9AsEAhQ#scrollTo=uVzyNRzqOdKZ
+
     Un projet qui m’a marqué, parce qu’il relie la donnée à un enjeu humain et global.  
     J’ai travaillé sur l’évolution des températures, la visualisation des tendances,  
     et la mise en évidence de signaux faibles.  
@@ -131,3 +135,4 @@ for i, img in enumerate(images_ventes):
 
 
 st.markdown("---")
+
